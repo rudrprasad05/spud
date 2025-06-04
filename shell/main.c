@@ -46,6 +46,7 @@ int main(void) {
         scanf("%s", buffer);
     
         if (strcmp(buffer, "ls") == 0) {
+            printf("%s", buffer);
             ls();
         } 
         else if (strcmp(buffer, "xxx") == 0){
