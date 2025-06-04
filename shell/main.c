@@ -27,7 +27,6 @@ int main(void) {
     
     signal(SIGINT, handle_sigint);
 
-    printf("%s", ascii_header);
     printf("%s", title);
     
     while(is_shell_running){
